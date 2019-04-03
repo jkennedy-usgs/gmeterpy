@@ -13,7 +13,8 @@ from astropy.utils import iers
 
 iers.conf.auto_max_age = 10
 iers.conf.auto_download = None
-iers.conf.iers_auto_url = 'ftp://ftp.iers.org/products/eop/rapid/standard/finals2000A.all'
+iers.conf.iers_auto_url =\
+        'ftp://ftp.iers.org/products/eop/rapid/standard/finals2000A.all'
 iers.conf.remote_timeout = 60
 
 
